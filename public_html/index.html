@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de prueba</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+      
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="banner">
+            <img src="images/logo.png" alt="logo" id="logo"/>
+            <nav class="menu-contenedor">
+                <ul class="menu">
+                    <li>INICIO</li>
+                    <li>CONTACTO</li>
+                    <li>NOSOTROS</li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="formulario">
+            <div class="form-banner">
+                <img src="images/persona.jpeg" alt="persona"/>
+                <h2 id="txt-formulario">Formulario</h2>
+            </div>
+            
+            <div class="form-form">
+            
+                <form action="./exito.html" method="GET" name="Formulario" onsubmit = "return validarFormulario()">
+                    <div class="datos">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="nombre">
+                        
+                    </div>
+                    
+                    <div class="datos">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="apellido">
+                        
+                    </div>
+                    
+                    <div class="datos">
+                        <label for="correo">Correo</label>
+                        <input type="text" id="correo" name="correo" placeholder="correo">
+                        
+                    </div>
+                    
+                    <div class="datos">
+                        <label for="fono">Fono</label>
+                        <input type="text" id="fono" name="fono" placeholder="numero telefonico">
+                        
+                    </div>
+                    
+                    <div class="datos">
+                        <label for="rut">Rut</label>
+                        <input type="text" id="rut" name="rut" placeholder="su rut">
+                        
+                    </div>
+                    
+                    <div class=" datos-btn datos">
+                        
+                        <input type="submit" value="Enviar">
+                        
+                    </div>
+
+
+
+                </form>
+                
+            </div>
+            
+            
+            
+            
+        </div>
+        
+        
+        
+        
+        <script src="js/sweetalert2@11.js" type="text/javascript"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
